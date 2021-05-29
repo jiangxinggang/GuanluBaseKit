@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GuanluBaseKit (0.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GuanluBaseKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GuanluBaseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GuanluBaseKit: 10f37bf78a11ac6acd4d1d977cae2f5d5268ecda
+
+PODFILE CHECKSUM: 3b1840e708674fab7a1c4fe01ae16821a66ca807
+
+COCOAPODS: 1.9.3
